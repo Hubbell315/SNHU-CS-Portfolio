@@ -1,4 +1,4 @@
-# CS 360 – Mobile Architecture and Programming
+# CS 360 - Mobile Architecture and Programming
 
 Project Overview and User Needs
 The mobile application developed for this project is a calendar-based reminder app designed to help users create, manage, and track scheduled events. The primary goal was to provide a simple and reliable system for storing event information and receiving notifications for important dates. This application addresses a straightforward yet essential user need: the requirement for an organized system to manage reminders, appointments, or deadlines in a structured and accessible format. By focusing on dependability and ease of navigation, the app ensures that users can quickly input and retrieve information without the confusion often found in more cluttered task management tools.
