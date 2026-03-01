@@ -23,4 +23,4 @@ Computer scientists develop systems that transform data into actionable insights
 
 Projects like this demonstrate the practical impact of structured programming and thoughtful database design. By building tools that improve efficiency and accuracy, software solutions directly enhance an organization’s ability to serve its mission. This experience highlights how computer science extends beyond writing code, it involves designing systems that solve real problems and create measurable value.
 
-### Coursework and projects completed for CS 340
+Coursework and projects completed for CS 340
