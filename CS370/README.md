@@ -1,4 +1,4 @@
-# CS 370 – Artificial Intelligence  
+# CS 370 - Artificial Intelligence  
 ## Pirate Intelligent Agent (Treasure Hunt)
 
 This project centers on building an intelligent agent capable of solving a pathfinding problem within a maze-based environment. The goal was to train a pirate agent that could reliably navigate the maze and reach the treasure using reinforcement learning, rather than relying on predefined paths or hardcoded decisions. Over time, the agent improves by interacting with the environment and learning from the outcomes of its actions.
