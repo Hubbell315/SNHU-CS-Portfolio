@@ -12,48 +12,48 @@ The camera system allows full navigation of the scene using standard input contr
 
 Overall, this project demonstrates a structured approach to 3D scene development by combining transformations, lighting, texturing, and interactive controls. The design prioritizes modularity, efficiency, and clarity, reflecting how a real-world graphics application would be developed.
 
-Reflection
+### Reflection
 How do I approach designing software?
 
 When I approach designing software, I usually start with a rough idea of what I want the final result to look like and then build toward that step by step. For this project, I focused on recreating a train yard scene, so I spent a lot of time thinking about placement, scale, and how everything would fit together visually. Instead of trying to make everything perfect right away, I built a base scene and then kept refining it as I went.
 
-What new design skills has this project helped me develop?
+### What new design skills has this project helped me develop?
 
 This project helped me get better at thinking in 3D space. Before this, I didn’t really think about how object size, spacing, and alignment affect how realistic something looks. I also learned how important consistency is when repeating objects like train cars and tracks.
 
-What design process did I follow?
+### What design process did I follow?
 
 I followed an iterative process where I added objects one at a time and constantly adjusted them. I would build something, test it, then go back and tweak positioning, scaling, or lighting until it looked right.
 
-How can this design approach be used in the future?
+### How can this design approach be used in the future?
 
 This approach can be used in future projects by breaking larger problems into smaller parts and improving them over time instead of trying to build everything perfectly in one pass.
 
-How do I approach developing programs?
+### How do I approach developing programs?
 
 When developing programs, I focus on getting something working first, then improving it. I’d rather have a basic version that runs than try to build something complex all at once and get stuck.
 
-What new development strategies did I use?
+### What new development strategies did I use?
 
 One of the biggest things I used in this project was modular design. I created reusable functions for objects like train cars instead of rewriting the same code multiple times, which made everything easier to manage.
 
-How did iteration factor into your development?
+### How did iteration factor into your development?
 
 Iteration was a big part of this project. I was constantly testing changes, especially with lighting, textures, and camera movement, and adjusting things until they looked right.
 
-How has your approach to coding evolved?
+### How has your approach to coding evolved?
 
 Earlier on, I focused mostly on getting things to work, but now I focus more on keeping code organized and readable. Breaking things into functions made a big difference.
 
-How can computer science help me reach my goals?
+### How can computer science help me reach my goals?
 
 Computer science allows me to build real projects like this that I can add to my portfolio. That’s important because it shows actual work instead of just theory.
 
-How do graphics/visualizations help in education?
+### How do graphics/visualizations help in education?
 
 This project helped me understand how math and programming work together to create something visual and interactive instead of just numbers on a screen.
 
-How do graphics/visualizations help professionally?
+### How do graphics/visualizations help professionally?
 
 These skills can be used in areas like game development, simulations, or visualization tools. It also improves problem-solving because you have to think about both logic and visuals at the same time.
 
