@@ -4,7 +4,7 @@
 
 **Artemis Financial Practices for Secure Software Report**
 
-This project focused on improving the security of a Spring Boot application for Artemis Financial through vulnerability assessment, secure coding practices, cryptographic hashing, HTTPS implementation, and dependency analysis.
+This project focused on improving the security of a Spring Boot application for Artemis Financial. The work included identifying security concerns, implementing SHA-256 checksum verification, configuring HTTPS with SSL/TLS, and analyzing dependencies for known vulnerabilities.
 
 ## Technologies Used
 
@@ -26,7 +26,6 @@ This project focused on improving the security of a Spring Boot application for 
 * HTTPS Configuration
 * Dependency Analysis
 * Security Testing
-* Risk Mitigation
 
 ---
 
@@ -34,29 +33,30 @@ This project focused on improving the security of a Spring Boot application for 
 
 ### Client Summary
 
-Artemis Financial is a financial services company that wanted to improve the security of its software application. The organization needed a solution that would better protect sensitive customer information, verify data integrity, and secure communications between clients and servers. The primary objective was to identify vulnerabilities and implement security controls that reduced risk while maintaining application functionality.
+Artemis Financial is a financial services company that wanted to improve the security of its software application. The goal was to better protect customer information and make sure data could be transmitted securely between the client and server. My task was to review the application, identify security concerns, and implement solutions that improved the overall security of the system.
 
 ### Software Security Vulnerabilities
 
-One area I performed well in was identifying vulnerabilities and implementing practical security improvements. Secure coding is important because software vulnerabilities can expose sensitive information, disrupt business operations, and damage customer trust. Strong software security helps organizations reduce risk, protect customer data, maintain compliance requirements, and strengthen their overall security posture.
+One thing I think I did well was identifying vulnerabilities and understanding how different security controls could help reduce risk. Through this project, I learned that secure coding is not just about writing code that works. It is also about protecting data, reducing security risks, and making sure users can trust the software they are using. Strong security practices can help prevent data breaches and protect both the company and its customers.
 
 ### Challenges and Helpful Experiences
 
-The most helpful part of the project was learning how to use OWASP Dependency-Check to analyze third-party libraries for known vulnerabilities. It demonstrated that security risks do not always originate from application code and that dependency management is an important part of secure software development. Reviewing vulnerability reports and understanding how security tools identify risks provided valuable hands-on experience.
+The most helpful part of this project was using OWASP Dependency-Check. It showed me that vulnerabilities are not always found in the code written by the developer. Sometimes they exist in third-party libraries that a project depends on. Learning how to review dependency reports and understand the results gave me a better understanding of how software security is evaluated in practice.
 
 ### Security Improvements
 
-Several layers of security were added during the project. SHA-256 hashing was implemented to verify data integrity, SSL certificates were generated to support secure communications, HTTPS was configured to encrypt client-server traffic, and dependency analysis was performed to identify known vulnerabilities. In future projects, I would continue using vulnerability scanners, dependency analysis tools, secure coding standards, and security testing methodologies to assess risks and determine appropriate mitigation strategies.
+To improve security, I implemented SHA-256 checksum verification, generated an SSL certificate, configured HTTPS communication, and reviewed project dependencies for known vulnerabilities. Each of these changes added another layer of protection to the application. In future projects, I would continue using dependency scanning tools, vulnerability assessments, and secure coding practices to help identify risks and determine appropriate mitigation strategies.
 
 ### Verification and Testing
 
-To ensure the application remained functional and secure, I performed both functional testing and security testing after implementing the security enhancements. The application was verified to run successfully using HTTPS, and the SHA-256 checksum functionality was tested to confirm correct operation. After refactoring the application, OWASP Dependency-Check was executed again to verify that no additional vulnerabilities were introduced and that the software continued to operate as intended.
+After making the security improvements, I tested the application to make sure everything still worked correctly. I verified that the SHA-256 checksum functionality was working as expected and confirmed that the application could run successfully over HTTPS. I also reran OWASP Dependency-Check after refactoring the application to make sure the changes did not introduce any new vulnerabilities.
 
 ### Resources and Tools
 
-Resources and tools used throughout this project included Java Keytool, Spring Boot, Maven, SHA-256 hashing, SSL/TLS certificates, HTTPS configuration, OWASP Dependency-Check, and secure software development best practices. These tools provided practical experience with implementing and evaluating software security controls.
+Some of the most useful tools and resources for this project were OWASP Dependency-Check, Java Keytool, Spring Boot documentation, Maven, SSL/TLS certificates, and SHA-256 hashing. These tools helped me better understand how security can be integrated into the software development process.
 
 ### Portfolio Value
 
-This project demonstrates my ability to evaluate software security risks, implement secure coding practices, configure encrypted communications, perform dependency analysis, and verify application security through testing. Future employers can use this project as evidence of my understanding of secure software development principles and my ability to apply industry-standard security techniques within a real-world software application.
+This project demonstrates my ability to identify software vulnerabilities, implement security improvements, configure secure communications, and verify that an application remains functional after security changes are made. It also shows my experience working with industry security tools and secure software development practices.
+
 
