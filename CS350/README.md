@@ -4,7 +4,7 @@
 
 This project was developed as the final project for CS 350: Emerging Systems Architectures and Technologies at Southern New Hampshire University.
 
-The goal was to design and implement a smart thermostat prototype using a Raspberry Pi 4. The system monitors room temperature through an AHT20 temperature sensor, displays information on a 16x2 LCD screen, allows user interaction through push buttons, and communicates status updates through UART communication.
+The goal was to design and implement a smart thermostat prototype using a Raspberry Pi 4. The system monitors room temperature through an AHT20 temperature sensor, displays information on a 16x2 LCD screen, allowing users to interact through push buttons, and communicates status updates through UART communication.
 
 The thermostat operates in three states:
 
