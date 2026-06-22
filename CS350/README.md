@@ -2,29 +2,18 @@
 
 ## Artifacts
 
-For this portfolio submission, I selected my Thermostat Project source code and the Thermostat State Machine Diagram as my primary artifacts. I also included the final project report because it provides additional details about the system design, hardware architecture, and future recommendations for the project.
+For this portfolio submission, I selected my Thermostat Project source code and Thermostat State Machine Diagram as my primary artifacts. I also included the final project report because it provides additional information about the system architecture, design decisions, and recommendations for future development.
 
-## Summarize the Project and What Problem It Was Solving
+## Reflection
 
-The goal of this project was to create a smart thermostat prototype using a Raspberry Pi 4. The thermostat reads temperature data from an AHT20 sensor, displays information on an LCD screen, and allows the user to switch between off, heat, and cool modes using buttons. The system also sends status updates through UART communication to simulate communication with a remote server. The project was designed to demonstrate how hardware and software can work together in an embedded system.
+The thermostat project was designed to demonstrate how hardware and software can work together in an embedded system. Using a Raspberry Pi 4, I created a smart thermostat prototype that reads temperature data from an AHT20 sensor, displays information on an LCD screen, allows user interaction through buttons, and sends status updates through UART communication. The thermostat operates in three states: off, heat, and cool, with LEDs providing visual feedback based on the current operating mode.
 
-## What Did You Do Particularly Well?
+Looking back on the project, I think troubleshooting was one of my strongest areas. Throughout development I ran into several issues involving hardware connections, button inputs, LCD functionality, and sensor integration. Instead of making multiple changes at once, I learned to isolate the problem and test individual components before integrating everything together. That approach made debugging much easier and helped me work through problems more efficiently.
 
-I think one of the things I did well was troubleshooting. Throughout the project I ran into several issues involving hardware connections, button inputs, the LCD display, and sensor integration. Instead of changing multiple things at once, I learned to test one component at a time and isolate the problem before moving forward. That process saved a lot of frustration and helped me get the system working correctly.
+One area where I could improve would be spending more time planning before implementation. A lot of my development process involved building, testing, troubleshooting, and then making adjustments as new issues appeared. While that taught me a lot about debugging, a more detailed design plan at the beginning would likely have reduced some of the troubleshooting required later in the project.
 
-## Where Could You Improve?
+The resources I relied on most throughout the course were Raspberry Pi documentation, hardware documentation, GitHub, and the course materials. More importantly, I learned the value of breaking larger problems into smaller pieces and testing each component individually before combining them into a complete system. That approach is something I plan to continue using in future projects.
 
-If I were to do the project again, I would spend more time planning before I started building. A lot of my development process involved building, testing, troubleshooting, and making adjustments along the way. While that helped me learn, having a more detailed design plan from the beginning probably would have reduced some of the time spent debugging later.
+The biggest skill I will take away from this project is troubleshooting. Whether the issue is hardware or software, being able to work through a problem methodically is important. I also gained experience working with sensors, state machines, GPIO, I2C communication, UART communication, and GitHub. These are skills that will transfer well to future software engineering and embedded systems projects.
 
-## What Tools and/or Resources Are You Adding to Your Support Network?
-
-The biggest resources I used throughout this course were hardware documentation, Raspberry Pi resources, GitHub, and the course materials. I also learned how valuable it can be to break problems into smaller pieces and test components individually before integrating everything together. That approach is something I will continue using in future projects.
-
-## What Skills From This Project Will Be Particularly Transferable to Other Projects and/or Coursework?
-
-The biggest skill I will take away from this project is troubleshooting. Whether the issue is hardware or software, being able to systematically work through a problem is important. I also gained experience working with sensors, state machines, GPIO, I2C communication, UART communication, and GitHub. Those skills will transfer well into future software engineering and embedded systems projects.
-
-## How Did You Make This Project Maintainable, Readable, and Adaptable?
-
-I tried to keep the project organized by separating functionality into logical sections and using meaningful names for variables, functions, and classes. I also added comments throughout the code so it would be easier to understand later. Using a state machine design made the thermostat easier to follow because each operating mode had a clearly defined purpose and behavior. If additional features were added in the future, the project could be expanded without requiring a complete redesign.
-
+To keep the project maintainable and readable, I organized the code into logical sections, used descriptive names for variables and functions, and added comments throughout the project. The state machine design also helped keep the system organized because each operating mode had a clearly defined purpose and behavior. If additional functionality were added in the future, the project could be expanded without requiring major changes to the overall design.
