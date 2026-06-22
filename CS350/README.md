@@ -1,19 +1,41 @@
-# CS 350 Portfolio Reflection
+# Smart Thermostat Prototype
 
-## Artifacts
+## Overview
 
-For this portfolio submission, I selected my Thermostat Project source code and Thermostat State Machine Diagram as my primary artifacts. I also included the final project report because it provides additional information about the system architecture, design decisions, and recommendations for future development.
+This project was developed as the final project for CS 350: Emerging Systems Architectures and Technologies at Southern New Hampshire University.
+
+The goal was to design and implement a smart thermostat prototype using a Raspberry Pi 4. The system monitors room temperature through an AHT20 temperature sensor, displays information on a 16x2 LCD screen, allows user interaction through push buttons, and communicates status updates through UART communication.
+
+The thermostat operates in three states:
+
+* Off
+* Heat
+* Cool
+
+LED indicators provide visual feedback for the active operating mode, while the LCD displays the current temperature, thermostat state, date, time, and setpoint temperature.
+
+## Technologies Used
+
+* Python
+* Raspberry Pi 4
+* GPIO
+* I2C Communication
+* UART Communication
+* AHT20 Temperature Sensor
+* LCD Display
+* State Machines
+* GitHub
+
+## Included Artifacts
+
+* Thermostat.py
+* Thermostat State Machine Diagram
+* Final Thermostat Report
 
 ## Reflection
 
-The thermostat project was designed to demonstrate how hardware and software can work together in an embedded system. Using a Raspberry Pi 4, I created a smart thermostat prototype that reads temperature data from an AHT20 sensor, displays information on an LCD screen, allows user interaction through buttons, and sends status updates through UART communication. The thermostat operates in three states: off, heat, and cool, with LEDs providing visual feedback based on the current operating mode.
+This project gave me hands-on experience integrating hardware and software into a functional embedded system. One of the biggest lessons I learned was the importance of troubleshooting and testing components individually before integrating them into a larger system. Throughout development I encountered issues involving hardware connections, button inputs, LCD functionality, and sensor integration. Working through those problems taught me how to isolate issues, verify assumptions, and approach debugging in a more systematic way.
 
-Looking back on the project, I think troubleshooting was one of my strongest areas. Throughout development I ran into several issues involving hardware connections, button inputs, LCD functionality, and sensor integration. Instead of making multiple changes at once, I learned to isolate the problem and test individual components before integrating everything together. That approach made debugging much easier and helped me work through problems more efficiently.
+If I were to improve the project, I would spend more time planning and documenting the overall design before implementation. While the iterative approach helped me learn, a more detailed design phase would likely have reduced some of the troubleshooting required later in development.
 
-One area where I could improve would be spending more time planning before implementation. A lot of my development process involved building, testing, troubleshooting, and then making adjustments as new issues appeared. While that taught me a lot about debugging, a more detailed design plan at the beginning would likely have reduced some of the troubleshooting required later in the project.
-
-The resources I relied on most throughout the course were Raspberry Pi documentation, hardware documentation, GitHub, and the course materials. More importantly, I learned the value of breaking larger problems into smaller pieces and testing each component individually before combining them into a complete system. That approach is something I plan to continue using in future projects.
-
-The biggest skill I will take away from this project is troubleshooting. Whether the issue is hardware or software, being able to work through a problem methodically is important. I also gained experience working with sensors, state machines, GPIO, I2C communication, UART communication, and GitHub. These are skills that will transfer well to future software engineering and embedded systems projects.
-
-To keep the project maintainable and readable, I organized the code into logical sections, used descriptive names for variables and functions, and added comments throughout the project. The state machine design also helped keep the system organized because each operating mode had a clearly defined purpose and behavior. If additional functionality were added in the future, the project could be expanded without requiring major changes to the overall design.
+The skills developed during this project, including debugging, hardware and software integration, GPIO programming, I2C communication, UART communication, and state machine design, will transfer directly to future software engineering and embedded systems projects. To improve maintainability and readability, the project was organized into logical sections with descriptive naming conventions, comments, and a state machine architecture that clearly separates each operating mode and its behavior.
