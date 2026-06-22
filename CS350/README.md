@@ -1,6 +1,6 @@
 # CS 350 Portfolio Reflection
 
-## Selected Artifacts
+## Artifacts
 
 For this portfolio submission, I selected my Thermostat Project source code and the Thermostat State Machine Diagram as my primary artifacts. I also included the final project report because it provides additional details about the system design, hardware architecture, and future recommendations for the project.
 
