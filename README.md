@@ -82,6 +82,7 @@ Developed software for embedded systems and explored hardware architecture, stat
 | [CS 370](./CS370) | Current and Emerging Trends in Computer Science |
 | [CS 405](./CS405) | Secure Coding                                   |
 | [CS 465](./CS465) | Full Stack Development                          |
+| [CS 499](./CS499) | Computer Science Capstone                       |
 
 ## Additional Relevant Coursework
 
@@ -93,7 +94,6 @@ Developed software for embedded systems and explored hardware architecture, stat
 * MAT 243: Applied Statistics for STEM
 * MAT 350: Applied Linear Algebra
 * CS 410: Software Reverse Engineering
-* CS 499: Computer Science Capstone
 
 ## Technical Areas
 
